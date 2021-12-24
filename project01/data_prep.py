@@ -10,5 +10,6 @@ doc_type: str = "recipes"
 client = Elasticsearch("http://localhost:9200")
 
 # call an API 
+# incorrect initialization(!)
 response = client.info()
 
